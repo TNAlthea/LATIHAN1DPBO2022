@@ -1,4 +1,4 @@
-#include "TimSepakBola.cpp"
+#include "bola.cpp"
 
 //bismillahirrahmanirrahiim
 /*
@@ -16,7 +16,8 @@ int main(){
     int n = 0, i = 0;
 
     /*user enter how many team they want to input into the program*/
-    cin>>n;
+    cout << "Input banyak tim: ";
+    cin>>n; cout << endl;
     
     /*declaring arrays for each team details*/
     TimSepakBola daftarTim[n];  
@@ -36,7 +37,7 @@ int main(){
         
         /*storing data into arrays by using set function in bola.cpp*/
         daftarTim[i].setNamaTim(tim);
-        daftarTim[i].setAsalNegaraTim(tim);
+        daftarTim[i].setAsalNegaraTim(negara);
         daftarTim[i].setNamaPemain(pemain);
         daftarTim[i].setTahunBerdiri(tahun);
 
