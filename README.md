@@ -8,3 +8,5 @@ NIM : 2005021
 Saya Sabian Annaya Havid mengerjakan Latihan dalam mata kuliah
 Desain Pemograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan
 seperti yang telah dispesifikasikan. Aamiin.
+
+/*Screenshot hasil program dapat dilihat pada masing-masing folder program*/
