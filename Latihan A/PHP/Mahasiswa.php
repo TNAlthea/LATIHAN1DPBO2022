@@ -2,12 +2,14 @@
 
 class Mahasiswa
 {
+    //atribut
     private $NIM = 0;
     private $Nama = "Lorem Ipsum";
     private $JK = "Laki-Laki";
     private $ProgramStudi = "Ilmu Komputer";
     private $Semester = 1;
-
+    
+    //construct
     public function __construct($NIM = 0, $Nama = "Lorem Ipsum", $JK = "Laki-Laki", $ProgramStudi = "Ilmu Komputer", $Semester = 1){
         $this->NIM = $NIM;
         $this->Nama = $Nama;
@@ -15,7 +17,8 @@ class Mahasiswa
         $this->ProgramStudi = $ProgramStudi;
         $this->Semester = $Semester;
     }
-
+    
+    /*get set*/
     public function setNIM($NIM){
         $this->NIM = $NIM;
     }
@@ -58,6 +61,7 @@ class Mahasiswa
 
 }
 
+//fungsi output
 function tampilData($Mahasiswa){
     echo "Data mahasiswa" ."<br>";
     echo "NIM: " .$Mahasiswa->getNIM() ."<br>";
