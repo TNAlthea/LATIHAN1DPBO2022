@@ -1,5 +1,5 @@
 <?php
-include "latihandpbo1.php";
+include "Mahasiswa.php";
 
 $Mahasiswa1 = new Mahasiswa();
 $Mahasiswa1->setNIM(2199999);
